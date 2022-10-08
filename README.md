@@ -48,16 +48,6 @@ with [Typescript](https://www.typescriptlang.org/), [Redux Toolkit](https://redu
 - [Additional Links](#-additional-links)
 - [License](#license)
 
-<!-- tocstop -->
-
-## About
-
-<div align="center">
-
-![about.gif](./_docs/img/about.gif)
-
-</div>    
-
 ### Features
 
 1. [React.js](https://reactjs.org/) CRUD example with Redux Thunk.
