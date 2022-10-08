@@ -1,0 +1,7 @@
+{
+    "i18n-ally.localesPaths": [
+        "src/config/i18n",
+        "cypress/integration/i18n",
+        "src/config/i18n/locales"
+    ]
+}

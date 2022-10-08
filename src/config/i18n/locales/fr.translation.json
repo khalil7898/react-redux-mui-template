@@ -1,0 +1,33 @@
+{
+  "home": {
+    "title": "Des postes",
+    "form": {
+      "title": "Titre",
+      "body": "Contenu",
+      "validation": {
+        "title-required": "Le titre ne peut pas être vide ",
+        "title-max": "Le titre ne peut pas dépasser {{num}} caractères ",
+        "body-required": "Le contenu ne peut pas être vide"
+      }
+    },
+    "buttons": {
+      "submit": "Ajouter un nouveau message ",
+      "reset": "Réinitialiser ",
+      "delete": "Retirer ",
+      "update": "Éditer"
+    }
+  },
+  "about": {
+    "title": "Page à propos",
+    "back": "Retour à la page d'accueil"
+  },
+  "company": {
+    "title": "Nom de l'entreprise"
+  },
+  "navigation": {
+    "links": {
+      "home": "Page d'accueil ",
+      "about": "A propos"
+    }
+  }
+}
