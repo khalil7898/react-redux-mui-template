@@ -1,14 +1,14 @@
-import { createAsyncThunk, nanoid } from '@reduxjs/toolkit'
-import axios from 'axios'
+import { createAsyncThunk } from '@reduxjs/toolkit'
 
+import api from 'features/posts/api'
 import { Post, PostFormInput } from 'features/posts/types'
 
 export const createPost = createAsyncThunk<Post, PostFormInput>(
-  'posts/createPost',
+  'posts/create',
   async (newPost: PostFormInput, { rejectWithValue }) => {
     try {
-      await axios.get('https://jsonplaceholder.typicode.com/todos/1')
-      return { id: nanoid(), ...newPost }
+      const post = await api.createPost(newPost)
+      return post
     } catch (error) {
       return rejectWithValue(error)
     }
